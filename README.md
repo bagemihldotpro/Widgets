@@ -56,7 +56,7 @@ Common Use-Cases
 
 ### Dispatching Widget group from view or layout
 
-	$widgets = $this->widgets()->dispatchWidgets('col1);
+	$widgets = $this->widgets()->dispatchWidgets('col1');
 	foreach($widgets as $name=>$widget) :
 		echo $widget;
 	endforeach;
