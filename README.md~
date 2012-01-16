@@ -5,7 +5,7 @@ Version 0.0.1 Created by Cristian Bagemihl
 Introduction
 ------------
 
-Widgets is a very simple MVC controller dispatcher for ZF2.
+Widgets is a controller dispatcher for ZF2.
 
 Requirements
 ------------
@@ -15,7 +15,18 @@ Requirements
 Features / Goals
 ----------------
 
-* Prepare Widgets to dispatch in View or Layout
+* 
+  username and use strictly email) [COMPLETE]
+* User registration [COMPLETE]
+* Forms protected against CSRF [COMPLETE]
+* Registration form protected with CAPTCHA [IN PROGRESS] \(Needs more options\)
+* Out-of-the-box support for Doctrine2 _and_ Zend\Db [IN PROGRESS]
+* Robust event system to allow for extending [IN PROGRESS]
+* Support for additional authentication mechanisms via plugins (Google,
+  Facebook, LDAP, etc) [INCOMPLETE]
+* Optional E-mail address verification [INCOMPLETE]
+* Forgot Password [INCOMPLETE]
+* Provide ActionController plugin and view helper [INCOMPLETE]
 
 Common Use-Cases
 ----------------
